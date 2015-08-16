@@ -1,0 +1,82 @@
+body {
+	padding-top:70px;
+	background: whitesmoke url("smiley.gif") no-repeat fixed center; 
+}
+h1   {
+	color:royalblue;
+    font-family:Georgia;
+    font-size: 35px;
+	}
+/*#####################
+Additional Styles (required)
+#####################*/
+/* Home Page Carousel */
+
+.navbar-fixed-top {
+  background-color:royalblue;
+  background-image: none;
+  background-repeat: no-repeat;
+ /* background:url("../images/title.png") center top repeat-X ; */
+   }
+ 
+ .navbar-fixed-top .navbar-nav > li > a {
+    color: white;
+}
+
+#myCarousel {
+	padding:5px;
+	background: #428BCA;
+}
+#myCarousel  .carousel-caption {
+	top:auto;
+	width:auto;
+	right:auto;
+	bottom:0px;
+	left:0;
+	padding:8px;
+	background:rgba(255,255,255,0.65);
+	text-align:center;
+  	height:auto;
+	width:100%;
+	color:#432A18;/*#FFF*/
+	text-shadow:none;
+}
+#myCarousel  .carousel-caption h2 {
+	color:#428BCA;
+	margin-top:0;
+}
+.carousel-control {
+	color:#fff;
+	top:44%;
+	background:#428BCA;
+	bottom:auto;
+	padding-top:8px;
+	width:36px;
+	border-radius:50%;
+	height:36px;
+	opacity:1;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image:none !important;
+}
+.carousel-control.right,
+.carousel-control .glyphicon-chevron-right {
+	left:auto;
+	right:-16px;
+}
+.carousel-control.left {
+	right:auto;
+	left:-16px;
+}
+
+ul.list-tick {
+  margin: 0;
+  padding: 0;
+}
+ul.list-tick li {
+  margin: 0;
+  padding: 2px 0 2px 16px;
+  list-style: none;
+  background: url('../images/forward.png') no-repeat 0 50%;
+}
+ 
