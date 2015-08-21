@@ -25,7 +25,7 @@
 
 body {  
   color: #333;
-  background-color:skyblue ;
+  background-color:gainsboro;
   overflow-x: hidden !important;
   font-family: 'Open Sans', sans-serif;  
 }
@@ -294,7 +294,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
    /*border-radius: 4px;*/
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color: #fff; 
+  background-color:greenyellow; 
 }
 .navbar-nav > li > .dropdown-menu { 
   margin-top: 13px;
@@ -580,18 +580,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /*--------------------*/
 
 #specialQuote {
-  background-color:black;
+  background-color:#0a97b2;
   color: #fff;
   display: inline;
   float: left;
   padding: 20px 0;
   text-align: center;
   width: 100%;
-  padding-top: 2px;
+  margin-top: 12px;
 }
 #specialQuote p{  
-  font-size: 30px;
-  font-style: italic;
+  font-size: 24px;
+  font-style: normal;
   line-height: 48px;
 }
 
@@ -624,10 +624,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   right: 0;
   width: 100%;
   height: 1px;
-  background-color: skyblue;
+  background-color: orange;
 }
-.client_title > h2 {
-  background: none repeat scroll 0 0 skyblue;
+.client_title > h4 {
+  background: none repeat scroll 0 0 #0a97b2;
+  color:white;
   display: inline-block;
   margin-top: 7px;
   padding: 0 20px;
@@ -636,8 +637,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   text-transform: uppercase;
   font-weight: bold;
 }
-.client_title > h2 span{
+.client_title > h4 span{
   font-weight: normal;
+  color: greenyellow;
 }
 .testimon_nav {
   margin-left: -39px;
@@ -818,7 +820,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .howworks_area {
   display: inline;
   float: left;
-  padding: 60px 0 105px;
   width: 100%;
 }
 .howworks_slider {
@@ -840,8 +841,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
-  width: 480px;
-  height: 420px;
+  width: 370px;
+  height: 200px;
   float: left;
   display: block;
 }
@@ -853,9 +854,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .single_iteam {
   display: inline;
   float: left;
-  height: 328px;
+  height: 155px;
   overflow: hidden;
-  padding: 24px;
+  padding: 10px;
   width: 100%;
 }
 .single_iteam img{
@@ -1012,7 +1013,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   height: 35px;
   line-height: 35px;
   margin: 0 5px;
-  text-align: center;
+  text-align: cenoneter;
   transform: rotate(45deg);
   width: 35px;
   -webkit-transition: all 0.5s;
@@ -1036,14 +1037,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .clients_brand_area {
   display: inline;
   float: left;
-  padding: 60px 0 105px;
+  padding: 10px 0 10px;
   width: 100%;
 }
 .clients_brand{
   float: left;
   display: inline;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .clb_nav{
   text-align: center;
@@ -1059,7 +1060,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 #featuredBlog{
-  background-color: #fff;
+  background-color:whitesmoke;
   display: inline;
   float: left;
   width: 100%;
@@ -1108,7 +1109,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   display: inline;
   float: left;
   width: 100%;
-  padding: 15px 0px;
+  padding: 10px 0px;
 }
 .footer_top{
   float: left;
@@ -1119,7 +1120,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   float: left;
   display: inline;
   width: 100%;
-  min-height: 50px;
+  min-height: 40px;
 }
 .single_footer_top > h2 {
   color: #fff;
@@ -1362,8 +1363,8 @@ transition: all 0.5s;
   color: #fff;
   font-size: 18px;
 }
-#imgbanner {
-  background-image: url("img/submit-photos.jpg");
+#imgbannercareer {
+  background-image: url("img/career.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: inline;
@@ -1374,12 +1375,29 @@ transition: all 0.5s;
   text-align: center;
   width: 100%;
 }
-#imgbanner h2{
-  color: #fff;
+#imgbanneraboutus {
+  background-image: url("img/aboutus.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 77px;
+  padding: 118px 0;
   text-align: center;
-  font-size: 72px;
-  font-weight: bold;
-  text-transform: uppercase;
+  width: 100%;
+}
+#imgbannerblog {
+  background-image: url("img/blog.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 77px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
 }
 
 #blogArchive{
@@ -1397,7 +1415,7 @@ transition: all 0.5s;
   
 }
 .single_archiveblog {
-  background-color: #ffffff;
+  background-color: whitesmoke;
   display: inline;
   float: left;
   padding: 20px;
