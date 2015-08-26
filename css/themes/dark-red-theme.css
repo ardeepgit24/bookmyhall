@@ -15,7 +15,7 @@
   color: #970001;  
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #970001;
+  color:red;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #970001;
@@ -133,7 +133,7 @@
   border: 2px solid #970001;
 }
 .price_nav li:hover .price_heading{
-    background-color: #970001;
+    background-color: red;
 } 
 .price_nav li:hover .price_img_inner{
     border: 2px solid #970001;
